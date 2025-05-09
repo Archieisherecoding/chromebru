@@ -30,7 +30,7 @@ function populateData(event){
 		case 'one': // Google tab
 			htmlContent = `<div class="google"><img class="google-rs" src="images/Google.png">
 			<br><br>
-			<form method="get" action="http://www.google.com/search">
+			<form method="get" action="https://dns.google/">
 			<div style="googlesearch">
 			<input type="text" id="search-google" name="q" size="25" maxlength="255" value="" placeholder="Enter your search query..." tabindex="-1" up="nav" left="outer-google" down="google-button" onclick="touched(this.id)" /> <input type="submit" id="google-button" tabindex="-1" up="search-google" left="outer-google" value="Google Search" /><span class="select-next" selectnext="search-google"></span>
 			</div>
